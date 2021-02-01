@@ -1,0 +1,15 @@
+table.inventory_table thead th{
+  border-bottom: solid 1px #d5d5d5;
+  /* background-color: #eee; */
+  text-align: center;
+  font-size: 12px;
+}
+
+table.inventory_table tbody td{
+  text-align: center;
+  border-bottom: solid 1px #d5d5d5;
+  line-height: 40px;
+}
+table.inventory_table tbody td input{
+  text-align: center;
+}

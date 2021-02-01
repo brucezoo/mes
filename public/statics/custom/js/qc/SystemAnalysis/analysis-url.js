@@ -1,0 +1,34 @@
+var URLS={
+  invalidCost: {
+    systemAnalysisReport:'/InvalidCost/systemAnalysisReport?',
+    statisticalReport:'/InvalidCost/statisticalReport?',
+    summary:'/InvalidCost/summary?'
+  },
+  annual:{
+    inspectionSummary:'/Systemsanalysis/inspectionSummary?'
+  },
+  monthly:{
+    badClassification:'/Systemsanalysis/badClassification?',
+    problemPoint:'/Systemsanalysis/problemPoint?',
+  },
+  dropdown:{
+    factory:'/Factory/getAllFactory?',
+    operation:'/operation/AllIndex?',
+    getInvalidEnum:'/InvalidCost/invalidEnumList?',
+    workshop:'/Workshop/select?',
+    getDepartment:'/InvalidCost/getNextLevelList?',//责任车间
+    department:'/department/list?',
+    getFactory:'/Factory/select?',
+    getMissingItems:'/qc/missingIitems?'
+  },
+  bl:{  
+    blListReport:'/MaterialRequisition/blListReport?',
+    updateBlData:'/MaterialRequisition/updateResonToQcreson?',
+  },
+  complaint:{
+    customerComplaint:'/qc/searchComplaintDetail?'
+  },
+  anomaly:{
+    anomalyAnalysis:'/Systemsanalysis/badPrintData?'
+  },
+}

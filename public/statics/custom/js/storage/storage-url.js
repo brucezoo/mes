@@ -1,0 +1,156 @@
+/**
+ * Created by admin on 2017/11/6.
+ */
+var URLS = {
+    depot: {
+        store:'/depots?',
+        list:'/depot/pageIndex?',
+        storeAdd:'/depot/store',
+        dept:'/departments?',
+        del:'/depot/destroy?',
+        depotShow:'/depot/show?',
+        depotUpdate:'/depot/update',
+        departmentsSelect:'/Department/treeIndex?',
+        // plants:'/plants?',
+        plants:'/Factory/pageIndex?',
+        chargeShow:'/basedata/employeeShow?',
+        unique:'/depots/unique?',      
+    },
+    locate:{
+        bin: '/bin?',
+        binList:'/bin/pageIndex?',
+        binAdd: '/bin/store',
+        binDel:'/bin/destroy?',
+        binShow:'/bin/show?',
+        binUpdate:'/bin/update',
+        chargeShow:'/basedata/employeeShow?',
+        unique:'/bin/unique?'
+
+    },
+    subarea:{
+        list:'/subarea?',
+        listpage:'/subarea/pageIndex?',
+        listAdd:'/subarea/store',
+        listDel:'/subarea/destroy?',
+        listUpdate:'/subarea/update',
+        listShow:'/subarea/show?',
+        chargeShow:'/basedata/employeeShow?',
+        unique:'/subarea/unique?'
+    },
+    otherInstore:{
+        list:'/otherinstore/pageIndex?',
+        del:'/otherinstore/destroy?',
+        InstoreShow:'/otherinstore/show?',
+        inve:'/storageinve/pageIndex?',
+        materialShow: '/Material/pageIndex?',
+        audit:'/otherinstore/audit',
+        reaudit:'/otherinstore/noaudit',
+        store:'/otherinstore/store',
+        update:'/otherinstore/update',
+        ownerShow:'/basedata/partnerShow?',
+        storageTree:'/basedata/wareHuseTreeShow?',
+        category:'/basedata/wareHuseTreeShow?',
+        Ancestors:'/basedata/treeFatherShow?',
+        unique:'/otherinstore/unique?',
+        getCode: '/encoding/get',
+
+    },
+    otherOutstore:{
+        list:'/otheroutstore/pageIndex?',
+        del:'/otheroutstore/destroy?',
+        outstoreShow:'/otheroutstore/show?',
+        audit:'/otheroutstore/audit',
+        reaudit:'/otheroutstore/noaudit',
+        store:'/otheroutstore/store',
+        update:'/otheroutstore/update',
+        owner:'/basedata/partnerShow?',
+        unique:'/otheroutstore/unique?',
+        getCode:'/OtherOutstoreController/createCode?',
+        consumeAdd:'/OtherOutstoreController/Consumeadd',
+        getCostCenter:'/OtherOutstoreController/GetcostcenterList?',
+        getConsumeList:'/OtherOutstoreController/Consumelist?',
+    },
+    storageConsumption:{
+        getCode:'/OtherOutstoreController/createCode?',
+        consumeAdd:'/OtherOutstoreController/Consumeadd',
+        pushToSAP:'/sap/synctPropellingMovement',
+        getCostCenter:'/OtherOutstoreController/GetcostcenterList?',
+        getConsumeList:'/OtherOutstoreController/Consumelist?',
+        viewStorageConsume:'/OtherOutstoreController/ConsumeOnelist?',
+        delStorageConsume:'/OtherOutstoreController/ConsumedeleteOne?',
+    },
+    storageInitial:{
+        export:'/AddStorageInitial?',
+        exportxls:'/initialinstore/exportExcel?'+_token,
+        initialList:'/getStorageInitial?',
+        initialDel:'/DestroyStorageInitial?',
+        store:'/AddStorageInitial?',
+        show:'/getInitialShow?',
+        update:'/UpdateStorageInitial?',
+        import:'/initialinstore/importExcel',
+        audit:'/initialinstore/audit?',
+        reaudit:'/initialinstore/noaudit?',
+        batchAudit:'/initialinstore/batchaudit?',
+        batchNoAudit:'/initialinstore/batchnoaudit?'
+    },
+    allocate:{
+        allocateList:'/StorageAllocate/getAllocateList?',
+        allocateDel:'/StorageAllocate/destroy?',
+        audit:'/StorageAllocate/audit?',
+        pushToSAP:'/sap/syncPropellingMovement?',
+        batchAudit:'/StorageAllocate/batchaudit?',
+        show:'/StorageAllocate/show?',
+        materialShow:'/Material/show',
+        category:'/MaterialCategory/treeIndex',
+        item:'/Material/bomItem',
+        store:'/StorageAllocate/store?',
+        update:'/StorageAllocate/update?',
+        inve:'/storageinve/pageIndex?',
+        unique:'/StorageAllocate/unique?'
+    },
+    instore:{
+        list:'/instoreitem/pageIndex?',
+        category:'/basedata/instoreCategoryShow?'
+    },
+    outstore:{
+        list:'/outstoreitem/pageIndex?',
+        category:'/basedata/outstoreCategoryShow?'
+    },
+    inve:{
+        list:'/storageinve/pageIndex?',
+        checkList:'/storageinve/pagecheckIndex?',
+        show:'/storageinve/show?',
+        showStyle:'/storageinve/showItems?',
+    },
+    check:{
+        list:'/getStorageCheck?',
+        audit:'/storagecheck/audit?',
+        reaudit:'/storagecheck/noaudit?',
+        getCode: '/encoding/get',
+        batchAudit:'/storagecheck/batchaudit?',
+        show:'/getCheckShow?',
+        update:'/storagecheck/editcheck?',
+        import:'/storagecheck/importExcel?',
+        export:'/storagecheck/exportExcel?',
+        updateAmountInspection:'/storagecheck/editcheck',
+    },
+    move:{
+        change:'/StorageInveChange',
+        store:'/StorageInveChange/store',
+        destroy:'/StorageInveChange/destroy',
+        batchaudit:'/StorageInveChange/batchaudit',
+        audit:'/StorageInveChange/audit',
+        getChangeList:'/StorageInveChange/getChangeList',
+        show:'/StorageInveChange/show',
+        update:'/StorageInveChange/update',
+        unique:'/StorageInveChange/unique',
+        getWorkShop:'/Workshop/select?',
+        getDepot:'/depots?'
+    },
+    storeshow:{
+        list:'/getStorageCheck?',
+    },
+    cause: {
+        pageIndex:'/StorageInveController/stockreasonList',
+    }
+}

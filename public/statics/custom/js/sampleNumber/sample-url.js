@@ -1,0 +1,26 @@
+var URLS={
+  sample:{
+    CurrentversionList:'/CurrentversionPicture/CurrentversionLitst',
+    CurrentversionAdd:'/CurrentversionPicture/CurrentversionAdd',
+    destroyPicture:'/CurrentversionPicture/destroyPicture',
+    uploadPicture:'/CurrentversionPicture/uploadPicture',
+    generateCode:'/CurrentversionPicture/generateCode',
+    currentversionshow:'/CurrentversionPicture/Currentversionshow',
+    currentversionUpdate:'/CurrentversionPicture/CurrentversionUpdate',
+    currentversionDelete:'/CurrentversionPicture/CurrentversionDelete'
+  },
+  sampleType:{
+    typeList:'/CurrentversionPicture/typeList',
+    typeAdd:'/CurrentversionPicture/typeAdd',
+    typeshow:'/CurrentversionPicture/typeshow',
+    typeUpdate:'/CurrentversionPicture/typeUpdate',
+    typeDelete:'/CurrentversionPicture/typeDelete',
+  },
+  sampleCode:{
+    codeList:'/CurrentversionPicture/codeList',
+    codeAdd:'/CurrentversionPicture/codeAdd',
+    codeShow:'/CurrentversionPicture/codeshow',
+    codeUpdate:'/CurrentversionPicture/codeUpdate',
+    codeDelete:'/CurrentversionPicture/codeDelete'
+  }
+}

@@ -1,0 +1,66 @@
+.div_con_wrapper{
+  width: 99% !important;
+}
+.has-border {
+  border: 1px solid #000 !important;
+}
+
+.new-version:hover{
+  background-color: lightgray !important;
+}
+
+.preview_draw_wrap {
+  display: flex;
+}
+
+.el-tap-wrap{
+  display: inline-block !important;
+}
+
+.el-header {
+  font-size:16px;
+  font-weight:bold;
+  height: 36px;
+  line-height:36px;
+  cursor: pointer;
+}
+
+.el-content {
+  -webkit-transition: -webkit-transform .8s;
+  transition: -webkit-transform .8s;
+  -o-transition: transform .8s;
+  transition: transform .8s;
+  transition: transform .8s, -webkit-transform .8s;
+}
+
+.el-icon {
+  width: 35px;
+  height: 100%;
+  right: 0;
+  top: 50%;
+  text-align: center;
+  font-size: 16px;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  -o-transition: transform .3s;
+  transition: transform .3s;
+  /* -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg); */
+  line-height: 36px;
+  cursor: pointer;
+}
+
+.el-icon.is-reverse {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.el-icon.fa-chevron-circle-right{
+  font: normal normal normal 72px/1 FontAwesome;
+}
+
+.el-icon.fa-chevron-circle-left{
+  font: normal normal normal 72px/1 FontAwesome;
+}

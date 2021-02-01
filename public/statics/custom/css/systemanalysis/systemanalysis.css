@@ -1,0 +1,40 @@
+.task-title{
+    width:80%;
+}
+
+.title-font {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.data-time {
+    float: right;
+    margin-top: 12px;
+    padding-right: 1em;
+}
+
+.task-table-card {
+    overflow: hidden;
+    min-height: 80px;
+    /* box-shadow: #aaa 0px 0px 20px 1px; */
+    margin: 20px 20px 0;
+}
+
+.table-list {
+    width: 100%;
+}
+
+.wrap_table_div table tr{
+  border-bottom: solid 1px #080808;
+}
+
+.wrap_table_div table tr th{
+  border: solid 1px #080808;
+  word-wrap:break-word;
+  word-break:break-all;
+}
+
+.wrap_table_div table tr td{
+  border: solid 1px #080808;
+  width:60px;
+}

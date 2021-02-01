@@ -1,0 +1,74 @@
+html{
+  font-size:120%;
+}
+
+body{
+  font-size: 1rem;
+}
+
+.work_order_text {
+  display: flex;
+  padding: 10px;
+  height: 70px;
+  text-align: center;
+}
+.work_order_input{
+  flex:10;
+  text-align: left;
+  display:flex;
+}
+td{
+  font-size: 24px;
+}
+td input{
+  font-size: 24px;
+  width:180px;
+  height:40px;
+}
+.work_order_button{
+  flex:2;
+  display: flex;
+}
+.work_order_wrap {
+  display: flex;
+  margin-bottom: 10px;
+  
+}
+
+.work_order_wrap .work_order_left {
+  flex: 1;
+  border: solid 1px #d1dbe5;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+}
+
+.work_order_wrap .work_order_btn {
+  /* display: flex; */
+  /* width: 10px; */
+  flex: 0.2;
+  align-items: center;
+}
+
+.work_order_wrap .work_order_right {
+  flex: 4;
+  border: solid 1px #d1dbe5;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 370px;
+  overflow-y: auto;
+}
+
+.el-button--primary:hover{
+  background-color:#badffb;
+  color:#333;
+}
+
+.el-muli-select .el-input{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

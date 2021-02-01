@@ -1,0 +1,28 @@
+.main-content {
+    display: flex;
+}
+.main-content .content-left .material-name,
+.main-content .content-right .material-name {
+    color: #333;
+    padding: 8px 6px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.main-content .content-left ul.ul-first {
+    list-style: none;
+    padding: 8px 6px;
+}
+.main-content .content-left ul.ul-first li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.main-content .content-left ul.ul-first li ul.ul-second {
+    list-style: none;
+    padding: 8px 6px;
+}
+
+.main-content .content-left ul.ul-first li ul.ul-second li ul.ul-three {
+    list-style: none;
+    padding: 8px 38px;
+}

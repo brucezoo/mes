@@ -1,0 +1,70 @@
+#show_out_material .table_tbody td,#show_in_material .table_tbody td{
+  text-align: center;
+  border-bottom: solid 1px #d5d5d5;
+}
+
+#show_out_material, #show_out_material>tbody>tr>td, #show_out_material>tbody>tr>th, #show_out_material>tfoot>tr>td, #show_out_material>tfoot>tr>th, #show_out_material>thead>tr>td, #show_out_material>thead>tr>th {
+  border: 1px solid #ddd;
+}
+
+#show_in_material, #show_in_material>tbody>tr>td, #show_in_material>tbody>tr>th, #show_in_material>tfoot>tr>td, #show_in_material>tfoot>tr>th, #show_in_material>thead>tr>td, #show_in_material>thead>tr>th {
+  border: 1px solid #ddd;
+}
+
+.work_order_text {
+  display: flex;
+  padding: 10px;
+  height: 70px;
+  text-align: center;
+}
+.work_order_input{
+  flex:10;
+  text-align: left;
+  display:flex;
+}
+td{
+  font-size: 24px;
+}
+td input{
+  font-size: 24px;
+  width:180px;
+  height:40px;
+}
+.work_order_button{
+  flex:2;
+  display: flex;
+}
+.work_order_wrap {
+  display: flex;
+  margin-bottom: 10px;
+  
+}
+
+.work_order_wrap .work_order_left {
+  flex: 1;
+  border: solid 1px #d1dbe5;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+}
+
+.work_order_wrap .work_order_btn {
+  /* display: flex; */
+  /* width: 10px; */
+  flex: 0.2;
+  align-items: center;
+}
+
+.work_order_wrap .work_order_right {
+  flex: 4;
+  border: solid 1px #d1dbe5;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 370px;
+  overflow-y: auto;
+}
+
+.el-button--primary:hover{
+  background-color:#badffb;
+  color:#333;
+}

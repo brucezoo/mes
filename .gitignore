@@ -1,0 +1,22 @@
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+#######  added by Sam
+*.log
+.idea
+.DS_Store
+.svn
+.cvs
+composer.phar
+nbproject
+.buildpath
+.project
+public/storage
+storage/app/public/*
+public/docs
+public/sap_json/*
+public/mes_report_work
+public/uploads/*
+pierced
